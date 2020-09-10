@@ -1,0 +1,28 @@
+
+.contenu{
+    display:flex;
+    border:2px solid black;
+    flex-direction: column;
+    height: 450px;
+    width:700px;
+}
+
+.text{
+    font-size: 50px;
+    font-weight: 400px; 
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    flex-wrap: wrap;
+    max-width : 50%;
+    max-height: 50%;
+    align-self: center;
+   
+ 
+}
+
+.image{
+    display:flex;
+    align-self:flex-start;
+    max-width : 20%;
+    max-height: 40%;
+}
